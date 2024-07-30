@@ -41,7 +41,7 @@ export function Land() {
       
       <section id="hero" className="mt-16 bg-gradient-to-r from-red-600 via-red-800 to-black py-24 md:py-32">
         <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
-          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__faster">
+          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__slower">
             <h1 className="text-5xl font-bold tracking-tight text-primary-foreground sm:text-6xl md:text-7xl">
               {t('heading_one')}
             </h1>
@@ -53,6 +53,7 @@ export function Land() {
               <Button variant="secondary" className="border-gray-300 shadow-lg">{t('button_two')}</Button>
             </div>
           </div>
+          
           <Carousel className="w-full max-w-xl animate__animated animate__fadeIn">
             <CarouselContent>
               <CarouselItem>
@@ -70,9 +71,11 @@ export function Land() {
           </Carousel>
         </div>
       </section>
+
+      
       <section id="work" className="py-20 md:py-28">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__faster">
+          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__slower">
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('heading_two')}</h2>
             <p className="mt-4 text-muted-foreground">{t('paragraph_two')}</p>
           </div>
@@ -109,7 +112,7 @@ export function Land() {
       </section>
       <section className="bg-muted py-20 md:py-28">
         <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
-          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__faster">
+          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__slower">
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('heading_six')}</h2>
             <p className="mt-4 text-muted-foreground">
               {t('paragraph_six')}
@@ -123,7 +126,7 @@ export function Land() {
       </section>
       <section className="py-20 md:py-28">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__faster">
+          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__slower">
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('heading_seven')}</h2>
             <p className="mt-4 text-muted-foreground">{t('paragraph_seven')}</p>
           </div>
@@ -139,7 +142,7 @@ export function Land() {
       </section>
       <section className="bg-muted py-20 md:py-28">
         <div className="container mx-auto px-4 md:px-6">
-          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__faster">
+          <div className="mb-12 text-center animate__animated animate__fadeInUp animate__slower">
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('heading_eight')}</h2>
             <p className="mt-4 text-muted-foreground">{t('paragraph_eight')}</p>
           </div>
@@ -182,7 +185,7 @@ export function Land() {
       </section>
       <section id="about" className="py-20 md:py-28">
         <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
-          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__faster">
+          <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__slower">
             <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">{t('heading_twelve')}</h2>
             <p className="mt-4 text-muted-foreground">
               {t('paragraph_twelve')}
@@ -196,7 +199,7 @@ export function Land() {
       </section>
       <section id="contact" className="bg-gradient-to-r from-red-600 via-red-800 to-black py-20 md:py-28">
   <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
-    <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__faster">
+    <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp animate__slower">
       <h2 className="text-4xl font-bold tracking-tight sm:text-5xl text-black">{t('heading_thirteen')}</h2>
       <p className="mt-4 text-black">
         {t('paragraph_fourteen')}

@@ -67,3 +67,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 0.9s;
+}
