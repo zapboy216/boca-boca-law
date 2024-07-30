@@ -20,19 +20,19 @@ export function Land() {
           </Link>
           <nav className="hidden space-x-4 md:flex">
             <Link href="#hero" className="hover:underline" prefetch={false}>
-              Home
+              {t('nav_one')}
             </Link>
             <Link href="#work" className="hover:underline" prefetch={false}>
-              Work
+              {t('nav_two')}
             </Link>
             <Link href="#about" className="hover:underline" prefetch={false}>
-              About
+              {t('nav_three')}
             </Link>
             <Link href="#contact" className="hover:underline" prefetch={false}>
-              Contact
+              {t('nav_three')}
             </Link>
           </nav>
-          <Button>Get a Quote</Button>
+          <Button>{t('quote_button')}</Button>
         </div>
       </header>
       <section id="hero" className="mt-16 bg-gradient-to-r from-primary via-secondary to-tertiary py-24 md:py-32">
@@ -143,34 +143,34 @@ export function Land() {
             <Card className="animate__animated animate__fadeIn">
               <CardContent>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-bold">New Feature Release</h3>
+                  <h3 className="text-lg font-bold">{t('heading_nine')}</h3>
                   <span className="rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground">
-                    Coming Soon
+                    {t('cta')}
                   </span>
                 </div>
-                <p className="mt-2 text-muted-foreground">Our latest software update with exciting new features.</p>
+                <p className="mt-2 text-muted-foreground">{t('paragraph_nine')}</p>
               </CardContent>
             </Card>
             <Card className="animate__animated animate__fadeIn">
               <CardContent>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-bold">Performance Upgrade</h3>
+                  <h3 className="text-lg font-bold">{t('heading_ten')}</h3>
                   <span className="rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground">
-                    Coming Soon
+                  {t('cta')}
                   </span>
                 </div>
-                <p className="mt-2 text-muted-foreground">Improved performance and stability for our software.</p>
+                <p className="mt-2 text-muted-foreground">{t('paragraph_ten')}</p>
               </CardContent>
             </Card>
             <Card className="animate__animated animate__fadeIn">
               <CardContent>
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-bold">Mobile App Release</h3>
+                  <h3 className="text-lg font-bold">{t('heading_eleven')}</h3>
                   <span className="rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground">
                     Coming Soon
                   </span>
                 </div>
-                <p className="mt-2 text-muted-foreground">Our new mobile app for on-the-go access to our software.</p>
+                <p className="mt-2 text-muted-foreground">{t('paragraph_eleven')}</p>
               </CardContent>
             </Card>
           </div>
@@ -179,14 +179,12 @@ export function Land() {
       <section id="about" className="py-24 md:py-32">
         <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
           <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">About Acme Software</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{t('heading_twelve')}</h2>
             <p className="mt-4 text-muted-foreground">
-              Acme Software is a leading provider of cutting-edge software solutions. Our team of experts is dedicated
-              to delivering innovative and reliable software that helps businesses thrive.
+            {t('paragraph_twelve')}
             </p>
             <p className="mt-4 text-muted-foreground">
-              With years of experience in the industry, we have a proven track record of success. Our software is
-              trusted by businesses of all sizes, from startups to enterprise-level organizations.
+            {t('paragraph_thirteen')}
             </p>
           </div>
           <Image src={t('image_seven')} width={500} height={400} alt="About Us" className="rounded-lg animate__animated animate__fadeIn" />
@@ -195,9 +193,9 @@ export function Land() {
       <section id="contact" className="bg-muted py-24 md:py-32">
         <div className="container mx-auto flex flex-col items-center justify-between gap-8 px-4 md:flex-row md:px-6">
           <div className="max-w-2xl text-center md:text-left animate__animated animate__fadeInUp">
-            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Get in Touch</h2>
+            <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">{t('heading_thirteen')}</h2>
             <p className="mt-4 text-muted-foreground">
-              Have a question or want to discuss a project? Contact us today.
+            {t('paragraph_fourteen')}
             </p>
             <div className="mt-8 flex items-center justify-center gap-4 md:justify-start">
               <Link href="#" className="text-muted-foreground hover:text-primary" prefetch={false}>
@@ -213,8 +211,8 @@ export function Land() {
           </div>
           <Card className="w-full max-w-md animate__animated animate__fadeIn">
             <CardHeader>
-              <CardTitle>Contact Us</CardTitle>
-              <CardDescription>Fill out the form below and we'll get back to you as soon as possible.</CardDescription>
+              <CardTitle>{t('form_title')}</CardTitle>
+              <CardDescription>{t('form_paragraph')}</CardDescription>
             </CardHeader>
             <CardContent>
               <form className="grid gap-4">
@@ -240,9 +238,9 @@ export function Land() {
         <div className="container mx-auto flex flex-col items-center justify-between gap-4 px-4 md:flex-row md:px-6">
           <div className="flex items-center">
             <MountainIcon className="h-6 w-6" />
-            <span className="ml-2 text-lg font-bold">Acme Software</span>
+            <span className="ml-2 text-lg font-bold">{t('logo_text')}</span>
           </div>
-          <p className="text-muted-foreground">&copy; 2024 Acme Software. All rights reserved.</p>
+          <p className="text-muted-foreground">{t('copy')}</p>
         </div>
       </footer>
     </div>
