@@ -44,7 +44,7 @@ export function Lander() {
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">Trusted Personal Injury Lawyers</h1>
                 <p className="mt-4 text-muted-foreground">
                   Our experienced team of personal injury attorneys is dedicated to helping you get the compensation you
-                  deserve. We'll fight tirelessly to protect your rights and ensure you receive the justice you're
+                  deserve. Well fight tirelessly to protect your rights and ensure you receive the justice youre
                   entitled to.
                 </p>
                 <div className="mt-6 flex items-center space-x-4">
@@ -160,15 +160,15 @@ export function Lander() {
             </div>
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-muted rounded-lg shadow-md p-6 transition-colors animate__animated animate__fadeIn">
-                <p className="text-muted-foreground">"Boca Boca Law Firm handled my case with utmost professionalism. I got the compensation I deserved!"</p>
+                <p className="text-muted-foreground">Boca Boca Law Firm handled my case with utmost professionalism. I got the compensation I deserved!</p>
                 <p className="mt-4 font-medium">- John Doe</p>
               </div>
               <div className="bg-muted rounded-lg shadow-md p-6 transition-colors animate__animated animate__fadeIn">
-                <p className="text-muted-foreground">"The team at Boca Boca Law is simply the best. They were supportive and knowledgeable throughout."</p>
+                <p className="text-muted-foreground">The team at Boca Boca Law is simply the best. They were supportive and knowledgeable throughout.</p>
                 <p className="mt-4 font-medium">- Jane Smith</p>
               </div>
               <div className="bg-muted rounded-lg shadow-md p-6 transition-colors animate__animated animate__fadeIn">
-                <p className="text-muted-foreground">"I highly recommend Boca Boca Law Firm for their excellent legal services and compassionate approach."</p>
+                <p className="text-muted-foreground">I highly recommend Boca Boca Law Firm for their excellent legal services and compassionate approach.</p>
                 <p className="mt-4 font-medium">- Mary Johnson</p>
               </div>
             </div>
@@ -198,7 +198,7 @@ export function Lander() {
             <div className="text-center space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Contact Us</h2>
               <p className="max-w-3xl mx-auto text-muted-foreground">
-                Fill out the form below to get in touch with us. We're here to help you with your personal injury case.
+                Fill out the form below to get in touch with us. Were here to help you with your personal injury case.
               </p>
             </div>
             <form className="mt-10 max-w-2xl mx-auto space-y-4">
@@ -222,7 +222,6 @@ export function Lander() {
               <textarea
                 placeholder="Your Message"
                 className="w-full px-4 py-2 rounded-md border border-muted-foreground focus:ring-primary focus:border-primary"
-                rows="6"
               ></textarea>
               <button
                 type="submit"
