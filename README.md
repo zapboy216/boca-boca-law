@@ -1,6 +1,6 @@
 Project Description
 
-## The project is a Single Page Application (SPA) for a software firm. with animated elements, internationalization support, and optimized images.
+## The project is a Single Page Application (SPA) for a law firm. with animated elements, internationalization support, and optimized images.
 
 
 ### Key Features
