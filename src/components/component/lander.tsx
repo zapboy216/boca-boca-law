@@ -174,24 +174,25 @@ export function Lander() {
             </div>
           </div>
         </section>
-        <section id="consultation" className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-red-500 to-black text-black">
-          <div className="container">
-            <div className="max-w-2xl mx-auto text-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Schedule a Consultation</h2>
-              <p className="text-black">
-                Take the first step towards getting the compensation you deserve. Schedule a free consultation with our
-                experienced personal injury attorneys today.
-              </p>
-              <Link
-                href="#contact-us"
-                className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors"
-                prefetch={false}
-              >
-                Schedule Consultation
-              </Link>
-            </div>
-          </div>
-        </section>
+        <section id="consultation" className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-red-500 to-black text-black bg-opacity-75">
+  <div className="container">
+    <div className="max-w-2xl mx-auto text-center space-y-4">
+      <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Schedule a Consultation</h2>
+      <p className="text-white text-lg opacity-90">
+        Take the first step towards getting the compensation you deserve. Schedule a free consultation with our
+        experienced personal injury attorneys today.
+      </p>
+      <Link
+        href="#contact-us"
+        className="inline-flex items-center justify-center h-10 px-6 rounded-md bg-primary text-primary-foreground font-medium shadow-sm hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors"
+        prefetch={false}
+      >
+        Schedule Consultation
+      </Link>
+    </div>
+  </div>
+</section>
+
         <section id="contact-us" className="py-12 md:py-16 lg:py-24 bg-background">
           <div className="container">
             <div className="text-center space-y-4">
