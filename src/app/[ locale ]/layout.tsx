@@ -21,7 +21,8 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = await getMessages(locale); // Fetch messages for the given locale
+  // Corrected: Pass an object with locale property
+  const messages = await getMessages({ locale }); // Fetch messages for the given locale
 
   return (
     <html lang={locale}>
